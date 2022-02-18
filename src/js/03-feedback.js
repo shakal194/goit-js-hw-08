@@ -17,7 +17,6 @@ function onFormSaved() {
     formData.email = email;
     formData.message = message;
     console.log(saveStorageMessage);
-    form.textarea = saveStorageMessage;
   }
 }
 
